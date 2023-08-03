@@ -1,4 +1,10 @@
+-- No PostgreSQL foi realizada a modelagem dos dados da seguinte maneira:
+
+-- Criação do Banco de Dados:
+
 CREATE DATABASE energia_renovavel2;
+
+-- Criação da tabela com os dados da ANEEL organizados no Jupyter Notebook:
 
 CREATE TABLE geracao_distribuida (
     SigAgente VARCHAR(50) NOT NULL,
@@ -31,7 +37,7 @@ SELECT * FROM geracao_distribuida;
 
 ---------------------------------------------------------------------------------------------------------------------
 
--- TABELA AGENTE:
+-- Criação TABELA AGENTE:
 
 CREATE TABLE agente(sigla VARCHAR(50) NOT NULL);
 
@@ -53,7 +59,7 @@ SELECT * FROM agente;
 
 -----------------------------------------------------------------------------------------------------------------------
 
--- TABELA CLASSE_CONSUMO:
+-- Criação TABELA CLASSE_CONSUMO:
 
 CREATE TABLE classe_consumo(descricao VARCHAR(50) NOT NULL);
 
@@ -75,7 +81,7 @@ SELECT * FROM classe_consumo;
 
 ------------------------------------------------------------------------------------------------------------------------
 
--- TABELA SUB_GRUPO_TARIFARIO:
+-- Criação TABELA SUB_GRUPO_TARIFARIO:
 
 CREATE TABLE sub_grupo_tarifario(
 	sigla VARCHAR(3) NOT NULL,
@@ -100,7 +106,7 @@ SELECT * FROM sub_grupo_tarifario;
 
 ---------------------------------------------------------------------------------------------------------------------
 
--- TABELA MUNICIPIO:
+-- Criação TABELA MUNICIPIO com os dados do IBGE organizados no Jupyter Notebook:
 
 CREATE TABLE municipio(
     Municipio VARCHAR(50) NOT NULL,
@@ -126,7 +132,7 @@ SELECT * FROM municipio;
 
 ---------------------------------------------------------------------------------------------------------------------
 
--- TABELA ESTADO:
+-- Criação TABELA ESTADO:
 
 CREATE TABLE estado(
     sigla CHAR(2) NOT NULL,
@@ -169,7 +175,7 @@ SELECT * FROM estado;
 
 ---------------------------------------------------------------------------------------------------------------------
 
--- TABELA REGIAO:
+-- Criação TABELA REGIAO:
 
 CREATE TABLE regiao(nome VARCHAR(20) NOT NULL);
 
@@ -187,7 +193,7 @@ SELECT * FROM regiao;
 
 ---------------------------------------------------------------------------------------------------------------------
 
--- TABELA TIPO_CONSUMIDOR:
+-- criação TABELA TIPO_CONSUMIDOR:
 
 CREATE TABLE tipo_consumidor (
 	sigla CHAR(2) NOT NULL,
@@ -204,7 +210,7 @@ SELECT * FROM tipo_consumidor;
 
 ---------------------------------------------------------------------------------------------------------------------
 
--- TABELA MODALIDADE:
+-- Criação TABELA MODALIDADE:
 
 CREATE TABLE modalidade(
     sigla CHAR(1) NOT NULL,
@@ -223,7 +229,7 @@ SELECT * FROM modalidade;
 
 ---------------------------------------------------------------------------------------------------------------------
 
--- TABELA TIPO_GERACAO:
+-- Ciração TABELA TIPO_GERACAO:
 
 CREATE TABLE tipo_geracao (
 	sigla CHAR(3) NOT NULL,
@@ -246,7 +252,7 @@ SELECT * FROM tipo_geracao;
 
 -----------------------------------------------------------------------------------------------------------------------
 
--- TABELA FONTE_GERACAO:
+-- Criação TABELA FONTE_GERACAO:
 
 CREATE TABLE fonte_geracao(descricao VARCHAR(50) NOT NULL);
 
@@ -268,7 +274,7 @@ SELECT * FROM fonte_geracao;
 
 -----------------------------------------------------------------------------------------------------------------------
 
--- TABELA PORTE:
+-- Criação TABELA PORTE:
 
 CREATE TABLE porte(descricao VARCHAR(20) NOT NULL);
 
@@ -289,7 +295,6 @@ ADD COLUMN id SERIAL PRIMARY KEY;
 SELECT * FROM porte;
 
 ---------------------------------------------------------------------------------------------------------------------
-
 
 --ADIÇÃO DAS CHAVES ESTRANGEIRAS E OTIMIZAÇÃO DA TABELA GERACAO_DISTRIBUIDA
 
@@ -562,3 +567,7 @@ WHERE
     c.contype = 'f'
     AND conrelid::regclass::text = 'municipio'
     AND confrelid::regclass::text = 'estado';
+
+------------------------------------------------------------------------------------------------------------------------
+
+-- Com a modelagem concluída, a visualização dos dados e dashboards foi criada no Microsoft Power BI, sendo realizada a importação deste banco de dados.
