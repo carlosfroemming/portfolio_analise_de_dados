@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio de projetos de ciência e análise de dados. Aqui vo
 
 ## Projetos
 
-- [Nome do Projeto 1](link_do_projeto_1): A Geração de Energia Distribuída no Brasil. 
+- [A Geração de Energia Distribuída no Brasil](https://github.com/carlosfroemming/portfolio_analise_de_dados/tree/main/Gera%C3%A7%C3%A3o_Energia_Distribuida_Brasil): Projeto que dá um panorama das unidades de geração de energia no Brasil. 
 
 ## Sobre Mim
 
