@@ -20,6 +20,6 @@ Se você tiver alguma sugestão, correção ou melhoria para qualquer um dos pro
 
 ## Contato
 
-Se quiser entrar em contato comigo, você pode me encontrar no [LinkedIN](https://www.linkedin.com/in/carlosfroemming) ou me enviar um e-mail em [carlos_f17@hotmail.com](mailto:carlos_f17@hotmail.com).
+Se quiser entrar em contato comigo, você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/carlosfroemming) ou me enviar um e-mail em [carlos_f17@hotmail.com](mailto:carlos_f17@hotmail.com).
 
 Espero que você encontre inspiração e valor nos projetos aqui apresentados. Obrigado por visitar o meu portfólio.
