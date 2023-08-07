@@ -38,13 +38,13 @@ A apresentação foi divida em 3 níveis, nacional, estadual e municipal:
 
 - No segundo nível, temos a visão por estado, podendo ser filtrado também por tipo de geração de energia, demonstrando como cada unidade federativa está em relação as outras, bem como outras informações e gráficos específicos, mapa e tabelas rankeando os municípios do estado por número de unidades e por unidades per capita.
 
-Exemplo: Rio Grande do Sul, meu estado natal.
+  Exemplo: Rio Grande do Sul, meu estado natal.
 
 ![Dashboard Estado](Dashboard_Estado.jpg)
 
 - No último nível, temos a visão por município, demonstrando a situação do mesmo em relação aos outros municípios do estado e também do Brasil, bem como informações e gráficos, além de mapa e tabela com as maiores unidades rankeadas por potência de geração (KW).
 
-Exemplo: Doutor Maurício Cardoso, minha cidade natal.
+  Exemplo: Doutor Maurício Cardoso, minha cidade natal.
 
 ![Dashboard Municipio](Dashboard_Municipio.jpg)
 
@@ -54,13 +54,13 @@ Exemplo: Doutor Maurício Cardoso, minha cidade natal.
 
 Com as visualizações criadas no Power BI, pudemos obter diversos insights relevantes sobre a geração de energia distribuída no Brasil. Alguns dos principais resultados incluíram:
 
--Distribuição geográfica das unidades de energia por estado e município.
+### Distribuição geográfica das unidades de energia por estado e município.
 
--Análise da correlação entre a quantidade de unidades de energia solar e a população de cada estado e município.
+### Análise da correlação entre a quantidade de unidades de energia solar e a população de cada estado e município.
 
--Identificação das regiões e estados do Brasil com maior adesão à energia solar e demais tipos de energia renovável.
+### Identificação das regiões e estados do Brasil com maior adesão à energia solar e demais tipos de energia renovável.
 
--Grande potencial de crescimento de uso energias renováveis em todo Brasil.
+### Grande potencial de crescimento de uso energias renováveis em todo Brasil.
 
 ## Conclusão
 
