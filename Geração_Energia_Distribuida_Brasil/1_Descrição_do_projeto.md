@@ -54,11 +54,11 @@ A apresentação foi divida em 3 níveis, nacional, estadual e municipal:
 
 Com as visualizações criadas no Power BI, pudemos obter diversos insights relevantes sobre a geração de energia distribuída no Brasil. Alguns dos principais resultados incluíram:
 
-### Distribuição geográfica das unidades de energia por estado e município.
+### Distribuição geográfica das unidades de energia distribuída por estado e município;
 
-### Análise da correlação entre a quantidade de unidades de energia solar e a população de cada estado e município.
+### Análise da relação entre a quantidade de unidades de energia e a população de cada estado e município;
 
-### Identificação das regiões e estados do Brasil com maior adesão à energia solar e demais tipos de energia renovável.
+### Identificação das regiões e estados do Brasil com maior adesão à energia solar e demais tipos de energias renováveis;
 
 ### Grande potencial de crescimento de uso energias renováveis em todo Brasil.
 
