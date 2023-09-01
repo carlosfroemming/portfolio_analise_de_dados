@@ -21,7 +21,7 @@ O diagrama de entidade-relacionamento (ER) foi desenvolvido para representar a e
 
 ![Relacionamento Tabelas](imagem_diagrama.png)
 
-O MySQL Workbench gerou o código SQL para criar as tabelas, índices e relacionamentos. Os dados tratados no Python foram importados para o banco de dados MySQL. Código descrito a seguir:
+Pelo MySQL Workbench, com o diagrama criado, foi possível gerar o código SQL para criar todas as tabelas, índices e relacionamentos necessários, sendo feitas as devidas correções para evitar erros. Junto disso, os dados tratados no Python foram importados para o banco de dados MySQL. Código descrito a seguir:
 
 [Acessar Código SQL](codigo_diagrama_format.sql)
 
@@ -42,9 +42,9 @@ Gráficos de linha do tempo das exportações totais em US$ por mês de 2022, tr
 #### Os resultados da análise permitem revelar os principais países de destino das exportações brasileiras em 2022, bem como os produtos mais exportados.
 #### A segmentação por país revela como cada um se comporta comercialmente e revela tendências do que cada país mais compra daqui, servindo como guia para empresas de cada setor de onde se pode buscar maior abertura de mercado e onde determinados produtos são mais procurados e comercializados.
 #### O ranking de exportações por estado brasileiro demonstra a força produtiva de cada unidade federativa e sua importância comercial para o país, mostrando as relações comerciais dos nossos estados com cada país do mundo.
-#### O gráfico de linha do tempo destacou padrões sazonais nas exportações ao longo do ano para cada país.
-#### O treemap fornece uma visão bastante clara dos produtos que cada país importa daqui com maior quantidade.
-#### Com a segmentação de produto, tem-se todos os dados em valores totais e absolutos de como aquele determinado produto se comportou comercialmente durante o ano.
+#### O gráfico de linha do tempo destacou padrões sazonais nas exportações ao longo do ano para cada país, produto ou mesmo município.
+#### O treemap fornece uma visão bastante clara dos produtos que cada país importa daqui com maior quantidade e valor.
+#### Com a segmentação de produto, tem-se todos os dados em valores totais e absolutos de como aquele determinado produto se comportou comercialmente durante o ano, além de indicar tendências do mesmo para o futuro.
 
 ## Conclusão
 
