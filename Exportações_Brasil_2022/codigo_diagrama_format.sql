@@ -1,6 +1,5 @@
 -- Este código foi gerado a partir da configuração do Diagrama Entidade Relacionamento realizado no MySQL Workbench, 
--- com algumas pequenas alterações e com as importações dos arquivos CSV da fonte de dados, os quais foram baixados do site do
--- Ministério do Desenvolvimento, Indústria, Comércio e Serviços, na parte de Estatísticas de Comércio Exterior em Dados Abertos.
+-- com algumas pequenas alterações e com as importações dos arquivos CSV da fonte de dados tratada no Jupyter Notebook.
 
 -- MySQL Workbench Forward Engineering
 
