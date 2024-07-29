@@ -12,7 +12,7 @@ O projeto foi desenvolvido em três etapas principais, com três ferramentas dis
 
 Inicialmente, foram carregadas as bibliotecas necessárias, o Pandas, o Unidecode e o Psycopg2. Então os dados da ANEEL e do IBGE* foram importados e foram realizadas as etapas de limpeza, tratamento e transformação dos dados, incluindo a correção de valores ausentes e a padronização dos formatos de dados. 
 
-[Acessar Código Python]((https://nbviewer.org/github/carlosfroemming/portfolio_analise_de_dados/blob/main/Gera%C3%A7%C3%A3o_Energia_Distribuida_Brasil/Dados_energia_distribuida_Aneel_IBGE_format.ipynb))
+[Acessar Código Python](https://nbviewer.org/github/carlosfroemming/portfolio_analise_de_dados/blob/main/Gera%C3%A7%C3%A3o_Energia_Distribuida_Brasil/Dados_energia_distribuida_Aneel_IBGE_format.ipynb)
 
 *A tabela importada do IBGE foi feita no Excel a partir das tabelas [2.1 - População residente](Tabela_21.xlsx), e [1.1 - Domicílios Recenseados](Tabela_11.xlsx), resultando na [Tabela_Populacao_Domicilio_IBGE_format](Tabela_Populacao_Domicilio_IBGE_format.xlsx)
 
